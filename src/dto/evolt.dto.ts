@@ -5,7 +5,6 @@ import State from "../enums/state.enums";
 class AddEvoltDto {
     
     @IsString()
-    @IsUUID()
     serialNumber!: string;
 
     @IsNumber()
